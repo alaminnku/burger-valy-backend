@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "burgers",
+  "info": {
+    "name": "Burger"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "meat": {
+      "type": "decimal"
+    },
+    "cheese": {
+      "type": "decimal"
+    },
+    "salad": {
+      "type": "decimal"
+    },
+    "bacon": {
+      "type": "decimal"
+    }
+  }
+}

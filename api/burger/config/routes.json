@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/burger",
+      "handler": "burger.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/burger",
+      "handler": "burger.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/burger",
+      "handler": "burger.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

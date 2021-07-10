@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Meat": {
+      "type": "integer"
+    },
+    "Cheese": {
+      "type": "integer"
+    },
+    "Salad": {
+      "type": "integer"
+    },
+    "Bacon": {
+      "type": "integer"
+    },
+    "Price": {
+      "type": "decimal"
+    }
+  }
+}
