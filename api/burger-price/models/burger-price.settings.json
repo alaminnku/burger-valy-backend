@@ -1,8 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "burgers",
+  "collectionName": "burger_prices",
   "info": {
-    "name": "Burger"
+    "name": "burger-price",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,16 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "meat": {
+    "salad": {
       "type": "decimal"
     },
     "cheese": {
       "type": "decimal"
     },
-    "salad": {
+    "meat": {
       "type": "decimal"
     },
     "bacon": {
+      "type": "decimal"
+    },
+    "small": {
+      "type": "decimal"
+    },
+    "medium": {
+      "type": "decimal"
+    },
+    "large": {
       "type": "decimal"
     }
   }

@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/burger",
-      "handler": "burger.find",
+      "path": "/burger-price",
+      "handler": "burger-price.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/burger",
-      "handler": "burger.update",
+      "path": "/burger-price",
+      "handler": "burger-price.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/burger",
-      "handler": "burger.delete",
+      "path": "/burger-price",
+      "handler": "burger-price.delete",
       "config": {
         "policies": []
       }

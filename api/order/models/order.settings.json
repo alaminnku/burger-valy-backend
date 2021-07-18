@@ -24,8 +24,11 @@
     "Bacon": {
       "type": "integer"
     },
-    "Price": {
+    "totalPrice": {
       "type": "decimal"
+    },
+    "side": {
+      "type": "string"
     }
   }
 }
