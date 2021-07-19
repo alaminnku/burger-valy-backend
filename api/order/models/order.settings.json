@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Meat": {
+    "Patty": {
       "type": "integer"
     },
     "Cheese": {
@@ -24,10 +24,13 @@
     "Bacon": {
       "type": "integer"
     },
-    "totalPrice": {
+    "TotalPrice": {
       "type": "decimal"
     },
-    "side": {
+    "Side": {
+      "type": "string"
+    },
+    "Type": {
       "type": "string"
     }
   }

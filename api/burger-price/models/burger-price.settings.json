@@ -2,8 +2,7 @@
   "kind": "singleType",
   "collectionName": "burger_prices",
   "info": {
-    "name": "burger-price",
-    "description": ""
+    "name": "Burger-Price"
   },
   "options": {
     "increments": true,
@@ -12,16 +11,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "salad": {
+    "patty": {
       "type": "decimal"
     },
     "cheese": {
       "type": "decimal"
     },
-    "meat": {
+    "bacon": {
       "type": "decimal"
     },
-    "bacon": {
+    "salad": {
       "type": "decimal"
     },
     "small": {
