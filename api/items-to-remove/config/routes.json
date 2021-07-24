@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/items-to-removes",
+      "handler": "items-to-remove.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/items-to-removes/count",
+      "handler": "items-to-remove.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/items-to-removes/:id",
+      "handler": "items-to-remove.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/items-to-removes",
+      "handler": "items-to-remove.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/items-to-removes/:id",
+      "handler": "items-to-remove.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/items-to-removes/:id",
+      "handler": "items-to-remove.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

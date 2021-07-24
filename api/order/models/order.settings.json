@@ -32,6 +32,9 @@
     },
     "Type": {
       "type": "string"
+    },
+    "items_to_remove": {
+      "model": "items-to-remove"
     }
   }
 }

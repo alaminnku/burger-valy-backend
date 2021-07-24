@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items_to_removes",
+  "info": {
+    "name": "Items To Remove",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mayo": {
+      "type": "boolean"
+    },
+    "ketchup": {
+      "type": "boolean"
+    },
+    "lettuce": {
+      "type": "boolean"
+    },
+    "mustard": {
+      "type": "boolean"
+    },
+    "onions": {
+      "type": "boolean"
+    },
+    "pickles": {
+      "type": "boolean"
+    },
+    "tomato": {
+      "type": "boolean"
+    }
+  }
+}
