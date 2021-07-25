@@ -61,6 +61,10 @@
     },
     "name": {
       "type": "string"
+    },
+    "orders": {
+      "via": "user",
+      "collection": "orders"
     }
   }
 }

@@ -2,48 +2,56 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/items-to-removes",
-      "handler": "items-to-remove.find",
+      "path": "/orders",
+      "handler": "orders.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/items-to-removes/count",
-      "handler": "items-to-remove.count",
+      "path": "/orders/me",
+      "handler": "orders.me",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/items-to-removes/:id",
-      "handler": "items-to-remove.findOne",
+      "path": "/orders/count",
+      "handler": "orders.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/orders/:id",
+      "handler": "orders.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/items-to-removes",
-      "handler": "items-to-remove.create",
+      "path": "/orders",
+      "handler": "orders.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/items-to-removes/:id",
-      "handler": "items-to-remove.update",
+      "path": "/orders/:id",
+      "handler": "orders.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/items-to-removes/:id",
-      "handler": "items-to-remove.delete",
+      "path": "/orders/:id",
+      "handler": "orders.delete",
       "config": {
         "policies": []
       }

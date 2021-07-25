@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "items_to_removes",
+  "collectionName": "orders",
   "info": {
-    "name": "Items To Remove",
+    "name": "Orders",
     "description": ""
   },
   "options": {
@@ -12,6 +12,32 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "Patty": {
+      "type": "integer"
+    },
+    "Cheese": {
+      "type": "integer"
+    },
+    "Salad": {
+      "type": "integer"
+    },
+    "Bacon": {
+      "type": "integer"
+    },
+    "TotalPrice": {
+      "type": "decimal"
+    },
+    "Side": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "string"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "orders"
+    },
     "mayo": {
       "type": "boolean"
     },
