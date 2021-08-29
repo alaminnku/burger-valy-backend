@@ -1,8 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "burger_prices",
+  "collectionName": "prices",
   "info": {
-    "name": "Burger-Price"
+    "name": "Price",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -30,6 +31,30 @@
       "type": "decimal"
     },
     "large": {
+      "type": "decimal"
+    },
+    "cheesePizza": {
+      "type": "decimal"
+    },
+    "clubSandwich": {
+      "type": "decimal"
+    },
+    "crispyFriedChicken": {
+      "type": "decimal"
+    },
+    "ovenBakedPasta": {
+      "type": "decimal"
+    },
+    "fishFingers": {
+      "type": "decimal"
+    },
+    "mexicanTaco": {
+      "type": "decimal"
+    },
+    "subSandwich": {
+      "type": "decimal"
+    },
+    "pepperoniPizza": {
       "type": "decimal"
     }
   }
