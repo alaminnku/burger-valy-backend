@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/burgerorders",
+      "handler": "burgerorders.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/burgerorders/me",
+      "handler": "burgerorders.me",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/burgerorders/count",
+      "handler": "burgerorders.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/burgerorders/:id",
+      "handler": "burgerorders.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/burgerorders",
+      "handler": "burgerorders.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/burgerorders/:id",
+      "handler": "burgerorders.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/burgerorders/:id",
+      "handler": "burgerorders.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

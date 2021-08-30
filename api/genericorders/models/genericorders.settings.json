@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genericorders",
+  "info": {
+    "name": "Genericorders",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Quantity": {
+      "type": "integer"
+    },
+    "TotalPrice": {
+      "type": "decimal"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "genericorders"
+    }
+  }
+}

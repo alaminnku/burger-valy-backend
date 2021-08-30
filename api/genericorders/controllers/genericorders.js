@@ -1,4 +1,5 @@
 "use strict";
+
 const { parseMultipartData, sanitizeEntity } = require("strapi-utils");
 
 module.exports = {
@@ -8,12 +9,12 @@ module.exports = {
     if (ctx.is("multipart")) {
       const { data, files } = parseMultipartData(ctx);
       data.user = ctx.state.user.id;
-      entity = await strapi.services.orders.create(data, { files });
+      entity = await strapi.services.genericorders.create(data, { files });
     } else {
       ctx.request.body.user = ctx.state.user.id;
-      entity = await strapi.services.orders.create(ctx.request.body);
+      entity = await strapi.services.genericorders.create(ctx.request.body);
     }
-    return sanitizeEntity(entity, { model: strapi.models.orders });
+    return sanitizeEntity(entity, { model: strapi.models.genericorders });
   },
 
   // Get all the orders for the logged in user
@@ -29,9 +30,9 @@ module.exports = {
     }
 
     // If there is an user, get the orders associated with the user
-    const data = await strapi.services.orders.find({ user: user.id });
+    const data = await strapi.services.genericorders.find({ user: user.id });
 
     // Return the data
-    return sanitizeEntity(data, { model: strapi.models.orders });
+    return sanitizeEntity(data, { model: strapi.models.genericorders });
   },
 };

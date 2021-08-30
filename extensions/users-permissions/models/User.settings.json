@@ -62,9 +62,13 @@
     "name": {
       "type": "string"
     },
-    "orders": {
+    "burgerorders": {
       "via": "user",
-      "collection": "orders"
+      "collection": "burgerorders"
+    },
+    "genericorders": {
+      "via": "user",
+      "collection": "genericorders"
     }
   }
 }

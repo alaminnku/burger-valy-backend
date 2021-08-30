@@ -2,56 +2,57 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/orders",
-      "handler": "orders.find",
+      "path": "/genericorders",
+      "handler": "genericorders.find",
+      "config": {
+        "policies": []
+      }
+    },
+
+    {
+      "method": "GET",
+      "path": "/genericorders/me",
+      "handler": "genericorders.me",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/orders/me",
-      "handler": "orders.me",
+      "path": "/genericorders/count",
+      "handler": "genericorders.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/orders/count",
-      "handler": "orders.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/orders/:id",
-      "handler": "orders.findOne",
+      "path": "/genericorders/:id",
+      "handler": "genericorders.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/orders",
-      "handler": "orders.create",
+      "path": "/genericorders",
+      "handler": "genericorders.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/orders/:id",
-      "handler": "orders.update",
+      "path": "/genericorders/:id",
+      "handler": "genericorders.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/orders/:id",
-      "handler": "orders.delete",
+      "path": "/genericorders/:id",
+      "handler": "genericorders.delete",
       "config": {
         "policies": []
       }

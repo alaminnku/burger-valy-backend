@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "orders",
+  "collectionName": "burgerorders",
   "info": {
-    "name": "Orders",
-    "description": ""
+    "name": "Burgerorders"
   },
   "options": {
     "increments": true,
@@ -36,7 +35,7 @@
     "user": {
       "plugin": "users-permissions",
       "model": "user",
-      "via": "orders"
+      "via": "burgerorders"
     },
     "mayo": {
       "type": "boolean"
