@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "genericorders",
   "info": {
-    "name": "Genericorders",
-    "description": ""
+    "name": "Genericorders"
   },
   "options": {
     "increments": true,
@@ -12,13 +11,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Quantity": {
+    "quantity": {
       "type": "integer"
     },
-    "TotalPrice": {
+    "totalPrice": {
       "type": "decimal"
     },
     "user": {

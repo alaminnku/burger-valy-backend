@@ -8,7 +8,6 @@
         "policies": []
       }
     },
-
     {
       "method": "GET",
       "path": "/genericorders/me",
