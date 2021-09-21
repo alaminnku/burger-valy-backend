@@ -33,9 +33,6 @@
     "large": {
       "type": "decimal"
     },
-    "cheesePizza": {
-      "type": "decimal"
-    },
     "clubSandwich": {
       "type": "decimal"
     },
@@ -55,6 +52,9 @@
       "type": "decimal"
     },
     "pepperoniPizza": {
+      "type": "decimal"
+    },
+    "musroomSalad": {
       "type": "decimal"
     }
   }
