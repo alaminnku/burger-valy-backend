@@ -54,7 +54,7 @@
     "pepperoniPizza": {
       "type": "decimal"
     },
-    "musroomSalad": {
+    "mushroomSalad": {
       "type": "decimal"
     }
   }
