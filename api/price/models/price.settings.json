@@ -39,7 +39,7 @@
     "crispyFriedChicken": {
       "type": "decimal"
     },
-    "ovenBakedPasta": {
+    "pasta": {
       "type": "decimal"
     },
     "fishFingers": {
